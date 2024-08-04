@@ -1,0 +1,55 @@
+Software License Agreement
+
+1. License Grant
+
+This License Agreement (the "Agreement") is made and entered into by and between Yousef Sedik ("Author") and Eng. Waleed Mohamed Ahmed ("Collaborator") (collectively referred to as "Licensors") and the licensee ("Licensee") who obtains the software application ("Software"). The Software is a proprietary application designed to calculate the modified moment of inertia.
+
+2. Use of Software
+
+The Licensee is granted a non-exclusive, non-transferable license to use the Software solely for the Licensee's internal engineering purposes. The Software may not be used for any commercial, governmental, or other purposes without the explicit prior written consent of the Licensors.
+
+3. License Fees
+
+The Licensee agrees to pay the Licensors the required fee for using the Software as determined by the Licensors. Use of the Software is strictly prohibited without payment of the applicable fee.
+
+4. Restrictions
+
+The Licensee may not:
+
+Copy, modify, or distribute the Software without prior written consent from the Licensors.
+Reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code of the Software.
+Use the Software in any manner that violates the terms of this Agreement.
+
+5. Ownership
+
+The Software and any associated documentation, including any updates, are the intellectual property of the Licensors. The Licensee does not acquire any ownership rights in the Software by virtue of this Agreement.
+
+6. Termination
+
+The Licensors reserve the right to terminate this Agreement and the License granted hereunder if the Licensee breaches any terms of this Agreement. Upon termination, the Licensee must cease all use of the Software and destroy all copies in their possession.
+
+7. Warranty Disclaimer
+
+The Software is provided "as-is" without any warranties, express or implied. The Licensors make no representations or warranties regarding the Software's performance or its fitness for a particular purpose.
+
+8. Limitation of Liability
+
+In no event shall the Licensors be liable for any damages arising from the use or inability to use the Software, including but not limited to incidental or consequential damages.
+
+9. Governing Law
+
+This Agreement shall be governed by and construed in accordance with the laws of Egypt, without regard to its conflict of laws principles.
+
+10. Entire Agreement
+
+This Agreement constitutes the entire agreement between the Licensors and the Licensee concerning the Software and supersedes all prior agreements or understandings, whether written or oral, relating to the Software.
+
+By using the Software, the Licensee acknowledges that they have read, understood, and agree to be bound by the terms and conditions of this Agreement.
+
+Licensors:
+
+Yousef Sedik
+Email: yousefsedik.bus@gmail.com
+
+Eng. Waleed Mohamed Ahmed
+Email: waleed.sayed@eng.asu.edu.eg
