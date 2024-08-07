@@ -1,7 +1,6 @@
 from PyQt5.QtWidgets import (
-    QMainWindow, QLabel, QVBoxLayout, QWidget, QTableWidget, QTableWidgetItem,
-    QFileDialog, QApplication, QDialog, QTextEdit
-)
+                            QMainWindow, QLabel, QVBoxLayout, QWidget, QTableWidget, QTableWidgetItem,
+                            QFileDialog, QApplication, QDialog, QTextEdit)
 from PyQt5.QtGui import QIcon, QFont
 from PyQt5 import uic
 from reportlab.lib.pagesizes import letter
@@ -29,9 +28,9 @@ def predict(model, x, R, q, lambda_):
 class MainApp(QMainWindow):
     def __init__(self, parent: Optional[QWidget] = None) -> None:
         super(MainApp, self).__init__(parent)
-        uic.loadUi(os.path.join(os.path.dirname(__file__), "inertia_calculator.ui"), self)
+        uic.loadUi(os.path.join(os.path.dirname(__file__), r"_internal\inertia_calculator.ui"), self)
         self.setWindowTitle('Modified Moment of Inertia Calculator')
-        self.setWindowIcon(QIcon(r"D:\PycharmProjects\pythonProject1\Eng Waleed\alpha.png"))
+        self.setWindowIcon(QIcon(r"_internal\alpha.png"))
 
         # Connect actions
         self.actionExport_to_PDF.triggered.connect(self.export_to_pdf)
@@ -65,18 +64,11 @@ class MainApp(QMainWindow):
     def inertia_calculator(self) -> None:
         """Perform the inertia calculation and update the table."""
         try:
-            model_file_path = r'_internal\gradient_boosting_model.pkl'
+            model_file_path = r'_internal\xgboost_model.pkl'
             model = load_model(model_file_path)
 
             # Extract and calculate the necessary values
             ipe_sections = {
-                "W12X14": {
-                    "area": 26.838,
-                    "h": 302.26,
-                    "b": 100.8,
-                    "s": 5.08,
-                    "t": 5.715
-                },
                 "IPE80": {
                     "area": 7.64,
                     "weight": 6,
